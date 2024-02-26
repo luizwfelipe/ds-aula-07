@@ -1,0 +1,18 @@
+main{
+    width: 100%;
+}
+
+.imagemPrincipal{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#imagem1{
+    width: 100%;
+    background-image: url('../assets/colocar.png');
+}
+
+#imagem1:hover{
+    background-image: url('../assets/reservar.png');
+}

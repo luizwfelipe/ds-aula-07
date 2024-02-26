@@ -1,0 +1,33 @@
+main {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    margin: 200px auto;
+}
+input{
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+    width: 250px;
+    margin: 10px auto;
+    height: 30px;
+}
+
+#segredo{
+    color: #585858;
+    text-align: end;
+}
