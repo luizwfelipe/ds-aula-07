@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../styles/header.css">
+    <link rel="stylesheet" href="./../styles/veiculos.css">
+    <title>Introdução a Javascript</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="./home.html">Home</a>
+            </div>
+            <div>
+                <a href="./lista.html">Lista</a>
+            </div>
+            <div>
+                <a href="./reservas.html">Reservas</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Minha Lista de Tarefas</h1>
+            <input type="text" id="inputTipo" placeholder="Adicione o tipo do veiculo...">
+            <input type="text" id="inputMarca" placeholder="Adicione a marca...">
+            <input type="text" id="inputNome" placeholder="Adicione o nome...">
+            <input type="text" id="inputAno" placeholder="Adicione o ano...">
+            <input type="text" id="inputPlaca" placeholder="Adicione a placa...">
+            <input type="text" id="inputCor" placeholder="Adicione uma cor...">
+            <input type="text" id="inputDiária" placeholder="Adicione um valor da diária...">
+            <input type="submit" onclick="logar(); return false">
+            <ul id="taskList"></ul>
+        </div>
+
+    </main>
+
+    <script src="./../js/veiculos.js"></script>
+</body>
+</html>

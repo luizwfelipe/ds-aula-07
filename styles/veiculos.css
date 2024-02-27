@@ -1,6 +1,6 @@
 main {
     font-family: Arial, sans-serif;
-    background-color: #feffae;
+    background-color: #d3d3d3;
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,10 +17,6 @@ main {
     text-align: center;
     width: 300px;
     margin: 200px auto;
-    background-image: url(./../assets/Design\ sem\ nome.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-        
 }
 input{
     width: 70%;
@@ -31,18 +27,3 @@ input{
     height: 30px;
 }
 
-.botao{
-    border: none;
-    background-color: #4bb34b;
-    color: #f4f4f4;
-}
-
-#segredo{
-    color: #86cbd4;
-    text-align: end;
-    
-}
-
-h1{
-    color: #ffffff;
-}
